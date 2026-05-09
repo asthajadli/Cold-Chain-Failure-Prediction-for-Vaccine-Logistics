@@ -1,0 +1,57 @@
+{
+  "accuracy": 0.958,
+  "roc_auc": 0.9857,
+  "classification_report": {
+    "0": {
+      "precision": 0.9897959183673469,
+      "recall": 0.9635761589403974,
+      "f1-score": 0.9765100671140939,
+      "support": 906.0
+    },
+    "1": {
+      "precision": 0.7203389830508474,
+      "recall": 0.9042553191489362,
+      "f1-score": 0.8018867924528302,
+      "support": 94.0
+    },
+    "accuracy": 0.958,
+    "macro avg": {
+      "precision": 0.8550674507090972,
+      "recall": 0.9339157390446668,
+      "f1-score": 0.8891984297834621,
+      "support": 1000.0
+    },
+    "weighted avg": {
+      "precision": 0.964466966447596,
+      "recall": 0.958,
+      "f1-score": 0.9600954792959352,
+      "support": 1000.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      873,
+      33
+    ],
+    [
+      9,
+      85
+    ]
+  ],
+  "feature_importance": {
+    "temperature_max_c": 0.2501,
+    "temperature_min_c": 0.2429,
+    "temperature_avg_c": 0.1661,
+    "temp_excursion_duration_mins": 0.1507,
+    "temp_excursion": 0.1171,
+    "vibration_g": 0.017,
+    "power_outage_mins": 0.0149,
+    "transit_duration_hrs": 0.0133,
+    "humidity_pct": 0.013,
+    "door_open_count": 0.0079,
+    "vaccine_type_enc": 0.0035,
+    "transport_mode_enc": 0.0035
+  },
+  "train_size": 4000,
+  "test_size": 1000
+}
