@@ -66,7 +66,3 @@ Cold-Chain-Failure-Prediction-for-Vaccine-Logistics/
 | `temp_excursion` | Binary flag: 1 if temperature went out of range |
 | `temp_excursion_duration_mins` | Duration of temperature excursion |
 ---
-
-## 📄 License
-
-MIT License — feel free to fork, use, and build on this project.
