@@ -43,36 +43,6 @@ Cold-Chain-Failure-Prediction-for-Vaccine-Logistics/
 
 ---
 
-## 🚀 Quick Start
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/<your-username>/Cold-Chain-Failure-Prediction-for-Vaccine-Logistics.git
-cd Cold-Chain-Failure-Prediction-for-Vaccine-Logistics
-```
-
-### 2. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Generate synthetic data
-```bash
-python generate_data.py
-```
-
-### 4. Train the model
-```bash
-python train_model.py
-```
-
-### 5. Launch the Streamlit app
-```bash
-streamlit run app.py
-```
-
----
-
 ## 📊 Features
 
 - **🔮 Failure Predictor** — Input shipment parameters and get an instant risk score with a gauge chart
@@ -95,18 +65,6 @@ streamlit run app.py
 | `power_outage_mins` | Total minutes of power outage |
 | `temp_excursion` | Binary flag: 1 if temperature went out of range |
 | `temp_excursion_duration_mins` | Duration of temperature excursion |
-
----
-
-## 📦 Tech Stack
-
-- **Python 3.10+**
-- **scikit-learn** — Random Forest model
-- **pandas / numpy** — Data processing
-- **Streamlit** — Web dashboard
-- **Plotly** — Interactive visualizations
-- **joblib** — Model serialization
-
 ---
 
 ## 📄 License
